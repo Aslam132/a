@@ -30,17 +30,17 @@ display: inline-block;
 }
 .name5::before {
 content: url(https://upload.wikimedia.org/wikipedia/uk/c/c5/Ajax_Amsterdam.png);
-zoom: 0.45;
+zoom: 0.29;
 display: inline-block;
 }
 .name6::before {
 content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Juventus_FC_-_pictogram_black_%28Italy%2C_2017%29.svg/150px-Juventus_FC_-_pictogram_black_%28Italy%2C_2017%29.svg.png);
-zoom: 0.45;
+zoom: 0.29;
 display: inline-block;
 }
 .name7::before {
 content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/150px-Logo_of_AC_Milan.svg.png);
-zoom: 0.45;
+zoom: 0.29;
 display: inline-block;
 }
 .name1:hover {
