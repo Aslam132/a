@@ -1,17 +1,13 @@
-html{
-font-family: CURSIVE; 
-background-image: linear-gradient(#F16161, #E585A8,#60FFFF);
-
-}
 body {
-background-image: linear-gradient(#F16161, #E585A8, #60FFFF);    
+font-family: CURSIVE; 
+background-image: linear-gradient(#F16161, #E585A8, #60FFFF); 
+margin: 0px;   
 }
 
 .name1::before {
 content: url(https://upload.wikimedia.org/wikipedia/uk/thumb/5/56/Real_Madrid_CF.svg/175px-Real_Madrid_CF.svg.png);
 zoom: 0.45;
 display: inline-block;
-
 }
 .name2::before {
 content: url(https://upload.wikimedia.org/wikipedia/uk/thumb/e/e1/Manchester_United_FC.png/185px-Manchester_United_FC.png);
@@ -43,78 +39,32 @@ content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_A
 zoom: 0.29;
 display: inline-block;
 }
-.name1:hover {
-transform: scale(1.02);
-transition: 1.1s;
-font-weight:550;
-}
-.name2:hover {
-transform: scale(1.02);
-transition: 1.1s ;
-font-weight:550;
-}
-.name3:hover {
-transform: scale(1.02);
-transition: 1.1s ;
-font-weight:550;
-}
-.name4:hover {
-transform: scale(1.02);
-transition: 1.1s ;
-font-weight:550;
-}
-.name5:hover {
-transform: scale(1.02);
-transition: 1.1s ;
-font-weight:550;
-}
-.name6:hover {
-transform: scale(1.02);
-transition: 1.1s ;
-font-weight:550;
-}
-.name7:hover {
+
+section:hover {
 transform: scale(1.02);
 transition: 1.1s  ;
 font-weight:550;
 }
+
+section {
+text-align: center;
+margin: 20px;
+}
+
 h1 {
 text-align: center;
 text-shadow:  3px 3px blanchedalmond ;
-}
-.name1 {
-text-align: center;
-}
-.name2 {
-text-align: center;
-}
-.name3 {
-text-align: center;
-}
-.name4 {
-text-align: center;
-}
-.name5 {
-text-align: center;
-}.name6 {
-text-align: center;
-}
-.name7 {
-text-align: center;
-}
-p {
-color: #342839;
-
 }
 h1:hover {
 transform: scale(1.06);
 transition: 1.1s;
 }
-nav a {
-text-decoration: none;
-color: #132A29; 
-padding: 5px;   
+
+p {
+color: #342839;
+
 }
+
 nav {
 text-align: center;
 word-spacing:10px;
@@ -123,11 +73,57 @@ border-top: 2px solid black;
 border-bottom: 2px solid black;
 padding: 5px;
 }
-article:hover {
-font-weight:700;
-
+nav a {
+text-decoration: none;
+color: #132A29; 
+padding: 5px;   
 }
 nav a:hover {
 color: #75552F;
-
 }
+
+footer{
+    position: relative;
+    padding: 50px 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    color: white;
+}
+footer a {
+    color: white;
+    padding: 0px 5px;
+    text-decoration: none;
+}
+footer img {
+padding: 10px;
+}
+
+.network {
+position: fixed;
+top:80%;
+right: 7px;
+}
+.network img{
+width: 65px;
+height: 65px;
+}
+.network img:hover {
+transform: scale(1.2);
+transition: 1s;
+}
+
+.icons img{
+    border-radius: 15px;
+}
+
+.links a:hover {
+    color: #342839;
+}
+
+.video {
+    text-align: center;
+}
+
